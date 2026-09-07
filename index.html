@@ -4,24 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Galeria Retro</title>
-    <style> 
-    .img {flex: 0 0 18rem; width: 18rem; box-shadow: #0E3FA9 0.5rem 0.5rem 1.5rem; border-radius: 7px;} 
-    .footer {text-align: center; border: 2px solid #FFA903; background-color:#242529;} 
-    .header {text-align: center; border: 2px solid #FFA903; background-color: #0E3FA9; color:#FFA903; font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; font-size: 1.5rem; padding: 0.5rem}
-    .contenedor-imagenes {display: flex; flex-wrap: wrap; justify-content: center;
-        max-width:60rem; gap: 3rem; margin: 100px auto;}
-    
-    </style>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
-<body style="display: flex; flex-direction:column; min-height:110vh; margin: 0; padding: 0;">
+<body>
     <header class="header">
-        <h1>RetroGallery</h1>
-        <h5 class="nombre-header-xd" style="font-family:'Comic Sans MS', 'Comic Sans', cursive; font-size: 0.5em; margin: 0.3rem;">Realizada por: Facundo Zega</h5>
+        <nav class="nav">
+            <h1>
+                <a href="index.html" class="logo">RetroGallery</a>
+            </h1>
+        </nav>
     </header>
-    <main class="main" style="flex: 1; background-color:#121214; color: #F5F5F7; text-align: center;">
+    <main class="main">
         <div class="portada">
-            <img src="imgs/ARTvideoclub.jpg" alt="Portada de la Galeria retro" style="width: 50%; margin: 5rem; border-radius: 7px;">
+            <img src="imgs/ARTvideoclub.jpg" alt="Portada de la Galeria retro">
         </div>
         <p>Esta galeria consiste en una colección de peliculas propias en formato fisico DVD, pertenecientes a decadas pasadas.</p>
         <p>Cada pelicula estara acompañada de una breve descripcion junto a una ficha tecnica con información detallada.</p>
@@ -33,14 +29,12 @@
             <img src="imgs/spiderman.jpg" alt="Spiderman 2" class="img">
             <img src="imgs/lotr.jpg" alt="Lord of the Rings - El Retorno del Rey" class="img">
         </div>
-        <p>¡Haz clic en las imagenes para ver más detalles!</p>
     </main>
     <footer class="footer">
-        <div class="footer-content" style="margin-bottom: 25px">
+        <div class="footer-content">
             <p>&copy; 2026 Galeria Retro. Todos los derechos reservados.</p>
             <a href="https://github.com/facuZ45/tarea-desarrollo-web/blob/main/README.md">Click para documentacion del sitio </a>
         </div>
     </footer>
 </body>
-
 </html>

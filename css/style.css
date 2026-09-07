@@ -1,0 +1,85 @@
+/* Layout base */
+body {
+	display: flex;
+	flex-direction: column;
+	min-height: 115vh;
+	margin: 0;
+	padding: 0;
+}
+
+.main {
+	flex: 1;
+	background-color: #121214;
+	color: #F5F5F7;
+	text-align: center;
+}
+
+/* Encabezado y pie */
+.header {
+	border: 2px solid #FFA903;
+	background-color: #0E3FA9;
+	color: #FFA903;
+	text-align: center;
+	font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+	font-size: 2rem;
+    padding: 1.25rem;
+
+    h1 {
+        margin: 0;
+    }
+
+    a {
+    text-decoration: none;
+    color: inherit;
+}
+
+}
+
+.footer {
+	border: 2px solid #FFA903;
+	background-color: #0E3FA9;
+    padding: 1.10rem;
+}
+
+.footer-content {
+    color: #F5F5F7;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.12rem;
+
+    a {
+        color: #FFA903;
+        text-decoration: none;
+    }
+
+    p {
+        margin: 0;
+    }
+    
+}
+
+/* Imagen principal y galeria */
+.portada img {
+	width: 50%;
+	margin: 5rem;
+	border-radius: 7px;
+}
+
+.contenedor-imagenes {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	max-width: 75rem;
+	gap: 4.15rem;
+	margin: 5.5rem auto;
+    margin-bottom: 7.5rem;
+}
+
+.img {
+	flex: 0 0 18rem;
+	width: 18rem;
+	border-radius: 7px;
+	box-shadow: #0E3FA9 0.5rem 0.5rem 1.5rem;
+}
