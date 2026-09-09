@@ -95,7 +95,7 @@ body {
 
 .img {
 	flex: 0 0 18rem;
-	width: 18rem;
+	width: 21rem;
 	border-radius: 7px;
 	box-shadow: #0E3FA9 0.5rem 0.5rem 1.5rem;
 	transition: transform 0.5s ease, box-shadow 0.5s ease;
@@ -156,8 +156,18 @@ body {
 	box-shadow: #2A2D34 0.5rem 0.5rem 1.5rem;
 }
 
+
 @media (max-width: 768px) {
     
+	.portada img {
+		max-width: 27.3rem;
+		margin: 2rem;
+	}
+
+	.texto {
+		padding: 1rem;
+	}
+
     .contenedor-ficha {
         flex-direction: column;   
         align-items: center;      
@@ -174,7 +184,11 @@ body {
 		padding: 0 1rem;
 	}
 
-    
+    .img-ficha {
+		max-width: 25rem;
+	}
+
+
     .galeria-dvd {
         flex-direction: column;   
         align-items: center;      
@@ -182,6 +196,6 @@ body {
 
     
     .img-dvd {
-        max-width: 30rem;
+        max-width: 25rem;
     }
 }
