@@ -60,11 +60,18 @@ body {
     
 }
 
+.texto {
+	font-size: 1.15rem;
+	font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	margin-bottom: 8.25rem;
+}
+
 /* Imagen principal y galeria */
 .portada img {
 	width: 50%;
-	margin: 5rem;
+	margin: 2.5rem;
 	border-radius: 7px;
+	margin-top:4.5rem;
 }
 
 .contenedor-imagenes {
@@ -74,7 +81,7 @@ body {
 	max-width: 75rem;
 	gap: 4.15rem;
 	margin: 5.5rem auto;
-    margin-bottom: 7.5rem;
+    margin-bottom: 9.5rem;
 }
 
 .img {
