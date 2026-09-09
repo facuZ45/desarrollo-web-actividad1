@@ -67,11 +67,20 @@ body {
 }
 
 /* Imagen principal y galeria */
+
+.portada {
+	display: flex;
+	justify-content: center;
+}
+
 .portada img {
-	width: 50%;
+	width: 100%;
+	height: auto;
+	max-width: 58rem;
 	margin: 2.5rem;
-	border-radius: 7px;
+	border-radius: 10px;
 	margin-top:4.5rem;
+	box-shadow: #FFA903 0.15rem 0.15rem 1rem;
 }
 
 .contenedor-imagenes {
@@ -89,4 +98,10 @@ body {
 	width: 18rem;
 	border-radius: 7px;
 	box-shadow: #0E3FA9 0.5rem 0.5rem 1.5rem;
+	transition: transform 0.5s ease, box-shadow 0.5s ease;
+}
+
+.img:hover {
+    transform: scale(1.08);
+	box-shadow: #FFA903 0.5rem 0.5rem 1.5rem;
 }
