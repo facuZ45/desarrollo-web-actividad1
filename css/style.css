@@ -155,3 +155,33 @@ body {
 	border-radius: 7px;
 	box-shadow: #2A2D34 0.5rem 0.5rem 1.5rem;
 }
+
+@media (max-width: 768px) {
+    
+    .contenedor-ficha {
+        flex-direction: column;   
+        align-items: center;      
+        gap: 1.5rem;              
+    }
+
+    
+    .texto-tecnico {
+        padding: 0 1rem;
+    }
+
+	.titulo-pelicula {
+		text-align: center;
+		padding: 0 1rem;
+	}
+
+    
+    .galeria-dvd {
+        flex-direction: column;   
+        align-items: center;      
+    }
+
+    
+    .img-dvd {
+        max-width: 30rem;
+    }
+}
